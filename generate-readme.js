@@ -37,8 +37,10 @@ const config = {
         const frontMatter = matter(str)
         const data = frontMatter.data
         const url = generateLiveUrl(file)
+
+        const author = data.author || 'Netlify'
         // add table rows
-        md += `| [${data.title}](${url}) | ${data.author} |\n`
+        md += `| [${data.title}](${url}) | ${author} |\n`
       })
 
       return md
