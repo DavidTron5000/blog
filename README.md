@@ -43,13 +43,13 @@ Welcome to the Netlify blog repo!
 | [Now in Forms: Export to CSV](https://www.netlify.com/blog/2017/10/17/exporting-form-submissions-via-one-click) | Luna Yu |
 | [Netlify CMS 0.5.0 released](https://www.netlify.com/blog/2017/10/12/netlify-cms-0-50-released) | Cassandra Salisbury |
 | [Coding Modern Websites with the JAMstack: Part 2](https://www.netlify.com/blog/2017/10/12/coding-modern-websites-with-the-jamstack-part-2) | Brian Douglas |
-| [San Francisco ReactJS Meetup](https://www.netlify.com/blog/2017/10/02/san-francisco-reactjs-meetup) | undefined |
+| [San Francisco ReactJS Meetup](https://www.netlify.com/blog/2017/10/02/san-francisco-reactjs-meetup) | Netlify |
 | [How To Get Involved in Hacktoberfest](https://www.netlify.com/blog/2017/10/02/netlify-jumps-into-hacktoberfest) | Cassandra Salisbury |
 | [Netlify CMS Planning: Working in Sprints](https://www.netlify.com/blog/2017/09/28/netlify-cms-planning-update) | Cassandra Salisbury |
-| [ReactJS San Francisco](https://www.netlify.com/blog/2017/09/22/reactjs-at-lyft) | undefined |
+| [ReactJS San Francisco](https://www.netlify.com/blog/2017/09/22/reactjs-at-lyft) | Netlify |
 | [Learning Review for Build Network Outages in September 2017](https://www.netlify.com/blog/2017/09/22/learning-review-for-build-network-outages-in-september-2017) | Chris McCraw |
-| [GraphQL Summit](https://www.netlify.com/blog/2017/09/22/graphql-summit) | undefined |
-| [Algolia Search Party](https://www.netlify.com/blog/2017/09/22/algolia-search-party) | undefined |
+| [GraphQL Summit](https://www.netlify.com/blog/2017/09/22/graphql-summit) | Netlify |
+| [Algolia Search Party](https://www.netlify.com/blog/2017/09/22/algolia-search-party) | Netlify |
 | [Spike: A Full Featured Static Website Generator](https://www.netlify.com/blog/2017/09/21/spike-a-full-featured-static-website-generator) | Brian Douglas |
 | [ Coding Modern Websites with the JAMstack, Part 1](https://www.netlify.com/blog/2017/09/21/coding-modern-websites-with-the-jamstack-part-1) | Brian Douglas |
 | [Form Handling with the JAMstack and Netlify](https://www.netlify.com/blog/2017/09/19/form-handling) | Brian Rinaldi |
@@ -59,12 +59,12 @@ Welcome to the Netlify blog repo!
 | [Replacing our search with Algolia](https://www.netlify.com/blog/2017/08/29/replacing-our-search-with-algolia-and-why) | Brian Douglas |
 | [Introducing Site Dashboards](https://www.netlify.com/blog/2017/08/22/site-page-redesign) | Bret Comnes |
 | [Elm: A Well Built Compile to JavaScript Language](https://www.netlify.com/blog/2017/08/22/elm-a-well-built-compile-to-javascript-language) | Brian Douglas |
-| [BrooklynJS](https://www.netlify.com/blog/2017/08/14/brooklynjs) | undefined |
+| [BrooklynJS](https://www.netlify.com/blog/2017/08/14/brooklynjs) | Netlify |
 | [ An Introduction to Service Workers](https://www.netlify.com/blog/2017/08/14/an-introduction-to-service-workers) | Brian Douglas |
 | [Netlify Raises $12m from A16Z](https://www.netlify.com/blog/2017/08/08/netlify-raises-dollar12m-from-a16z) | Matt Biilmann & Chris Bach |
 | [The Rise of Design Systems](https://www.netlify.com/blog/2017/08/01/the-rise-of-design-systems) | Brian Douglas |
-| [Write/Speak/Code](https://www.netlify.com/blog/2017/07/31/writespeakcode) | undefined |
-| [Code for Good Week Wrap-Up Celebration](https://www.netlify.com/blog/2017/07/31/jamstack-sf-code-for-good-week-wrap-up-celebration) | undefined |
+| [Write/Speak/Code](https://www.netlify.com/blog/2017/07/31/writespeakcode) | Netlify |
+| [Code for Good Week Wrap-Up Celebration](https://www.netlify.com/blog/2017/07/31/jamstack-sf-code-for-good-week-wrap-up-celebration) | Netlify |
 | [Introducing Audit Log](https://www.netlify.com/blog/2017/07/27/introducing-audit-log) | Bret Comnes |
 | [Net Neutrality Panel at JAMstack SF](https://www.netlify.com/blog/2017/07/26/net-neutrality-panel-at-jamstack-sf) | Cassandra Salisbury |
 | [HTTP/2 Server Push on Netlify](https://www.netlify.com/blog/2017/07/17/http2-server-push-on-netlify) | David Calavera |
@@ -80,9 +80,9 @@ Welcome to the Netlify blog repo!
 | [JAMstack, Netlify CMS, and 10x-ing Smashing Magazine](https://www.netlify.com/blog/2017/05/31/jamstack-netlify-cms-and-10x-ing-smashing-magazine) | Matt Biilmann & Chris Bach |
 | [JAMstack conference videos](https://www.netlify.com/blog/2017/05/31/active-ingredients-jamstack-conference-videos) | Brian Douglas |
 | [A Complete CMS with No Server and 18 Lines of Code](https://www.netlify.com/blog/2017/05/26/netlify-cms-basics) | Shawn Erquhart |
-| [WaffleJS](https://www.netlify.com/blog/2017/05/17/wafflejs) | undefined |
-| [Sudweb ](https://www.netlify.com/blog/2017/05/17/sudweb) | undefined |
-| [React & React Native of San Diego](https://www.netlify.com/blog/2017/05/17/react-react-native-of-san-diego) | undefined |
+| [WaffleJS](https://www.netlify.com/blog/2017/05/17/wafflejs) | Netlify |
+| [Sudweb ](https://www.netlify.com/blog/2017/05/17/sudweb) | Netlify |
+| [React & React Native of San Diego](https://www.netlify.com/blog/2017/05/17/react-react-native-of-san-diego) | Netlify |
 | [JAMstack vs Isomorphic Server Side Rendering](https://www.netlify.com/blog/2017/05/17/jamstack-vs-isomorphic-javascript) | Brian Douglas |
 | [Accessibility on the Modern Web](https://www.netlify.com/blog/2017/05/17/accessibility-on-the-modern-web) | Cassandra Salisbury |
 | [Staying Cool with Graphcool](https://www.netlify.com/blog/2017/05/11/staying-cool-with-graphcool) | Brian Douglas |
