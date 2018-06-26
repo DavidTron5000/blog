@@ -1,0 +1,26 @@
+{
+  "name": "netlify-blog",
+  "version": "1.0.0",
+  "description": "Netlify's open source blog",
+  "private": true,
+  "scripts": {
+    "docs": "node generate-readme.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidTron5000/blog.git"
+  },
+  "keywords": [
+    "Jamstack"
+  ],
+  "author": "Netlify",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DavidTron5000/blog/issues"
+  },
+  "homepage": "https://github.com/DavidTron5000/blog#readme",
+  "devDependencies": {
+    "gray-matter": "^4.0.1",
+    "markdown-magic": "^0.1.21"
+  }
+}
