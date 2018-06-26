@@ -1,5 +1,7 @@
 # Open Source Blog
 
+Welcome to the Netlify blog repo! [Contributions, typo fixes and pull requests are welcome](https://github.com/DavidTron5000/blog/new/master/post)
+
 
 ## All Posts
 
