@@ -7,14 +7,8 @@ const markdownMagic = require('markdown-magic')
 const globby = require('markdown-magic').globby
 
 // Make live netlify URL https://www.netlify.com/blog/2018/05/22/netlify-now-shows-your-deploy-status-on-its-favicon/
-function generateLiveUrl(postPath, data) {
-  let date = 'xx-xx-xxxx'
-  const dateMatch = postPath.match(/[0-9]{4}-(0[1-9]|1[0-2])-(0[1-9]|[1-2][0-9]|3[0-1])/g)
-  if (dateMatch) {
-    date = dateMatch[0].replace(/\-/g, '/')
-  }
-
-  const slugifiedTitle = slugify(data.title)
+function generateLiveUrl(date, title) {
+  const slugifiedTitle = slugify(title)
   return `https://www.netlify.com/blog/${date}/${slugifiedTitle}`
 }
 
@@ -29,17 +23,24 @@ const config = {
     LIST_ALL_POSTS() {
       const posts = globby.sync(['**/posts/**.md'])
       // Make table header
-      let md = '| Post | Author  |\n'
-      md += '|:--------------------------- |:-----|\n'
+      let md = '| Post | Author | Date |\n'
+      md += '|:--------------------------- |:-----|:-----|\n'
       posts.reverse().forEach((file) => {
         const str = fs.readFileSync(file, 'utf8')
         const frontMatter = matter(str)
         const data = frontMatter.data
-        const url = generateLiveUrl(file, data)
+
+        let date = 'xx-xx-xxxx'
+        const dateMatch = file.match(/[0-9]{4}-(0[1-9]|1[0-2])-(0[1-9]|[1-2][0-9]|3[0-1])/g)
+        if (dateMatch) {
+          date = dateMatch[0].replace(/\-/g, '/')
+        }
+
+        const url = generateLiveUrl(date, data.title)
 
         const author = data.author || 'Netlify'
         // add table rows
-        md += `| [${data.title}](${url}) | ${author} |\n`
+        md += `| [${data.title}](${url}) | ${author} | ${date} |\n`
       })
 
       return md
