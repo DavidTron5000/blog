@@ -3,8 +3,7 @@ const path = require('path')
 const url = require('url')
 const matter = require('gray-matter')
 const slugify = require('slugify')
-const markdownMagic = require('markdown-magic')
-const globby = require('markdown-magic').globby
+const { markdownMagic } = require('markdown-magic')
 
 // Make live netlify URL https://www.netlify.com/blog/2018/05/22/netlify-now-shows-your-deploy-status-on-its-favicon/
 function generateLiveUrl(date, title) {
@@ -13,6 +12,8 @@ function generateLiveUrl(date, title) {
 }
 
 const config = {
+  open: 'docs',
+  close: '/docs',
   transforms: {
     /*
     In README.md the below comment block adds the list to the readme
@@ -20,8 +21,9 @@ const config = {
       All posts will be listed here
     <!-- AUTO-GENERATED-CONTENT:END -->
      */
-    LIST_ALL_POSTS() {
-      const posts = globby.sync(['**/posts/**.md'])
+    async LIST_ALL_POSTS() {
+      const { globby } = await import('globby')
+      const posts = await globby(['**/posts/**.md'])
       // Make table header
       let md = '| Post | Author | Date |\n'
       md += '|:--------------------------- |:-----|:-----|\n'
@@ -50,6 +52,6 @@ const config = {
 
 
 const markdownPath = path.join(__dirname, 'README.md')
-markdownMagic(markdownPath, config, () => {
+markdownMagic(markdownPath, config).then(() => {
   console.log('Readme updated!')
 })
