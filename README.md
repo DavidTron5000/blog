@@ -1,4 +1,4 @@
-# Open Source Blog
+# Netlify's old blog
 
 Welcome to the Netlify blog repo! 
 
@@ -6,7 +6,7 @@ Welcome to the Netlify blog repo!
 
 ## All Posts
 
-<!-- AUTO-GENERATED-CONTENT:START (LIST_ALL_POSTS)-->
+<!-- docs (LIST_ALL_POSTS)-->
 | Post | Author | Date |
 |:--------------------------- |:-----|:-----|
 | [Buy and secure a custom domain through Netlify](https://www.netlify.com/blog/2018/06/15/Buy-and-secure-a-custom-domain-through-Netlify) | Bret Comnes | 2018/06/15 |
@@ -234,7 +234,7 @@ Welcome to the Netlify blog repo!
 | [A Step-by-Step Guide: Wintersmith on Netlify](https://www.netlify.com/blog/2015/11/05/A-Step-by-Step-Guide:-Wintersmith-on-Netlify) | Aaron Autrand | 2015/11/05 |
 | [A Step-by-Step Guide: Hosting Exposé on Netlify](https://www.netlify.com/blog/2015/11/02/A-Step-by-Step-Guide:-Hosting-Expose-on-Netlify) | Aaron Autrand | 2015/11/02 |
 | [Control Your Post Processing](https://www.netlify.com/blog/2015/10/31/Control-Your-Post-Processing) | Matt Biilmann | 2015/10/31 |
-| [Domain Aliases–as Many as You Like](https://www.netlify.com/blog/2015/10/30/Domain-Aliasesas-Many-as-You-Like) | Matt Biilmann | 2015/10/30 |
+| [Domain Aliases–as Many as You Like](https://www.netlify.com/blog/2015/10/30/Domain-Aliases-as-Many-as-You-Like) | Matt Biilmann | 2015/10/30 |
 | [Netlify News No. 7](https://www.netlify.com/blog/2015/10/29/Netlify-News-No.-7) | Chris Bach | 2015/10/29 |
 | [A Step-by-Step Guide: Jekyll (3.0) on Netlify](https://www.netlify.com/blog/2015/10/28/A-Step-by-Step-Guide:-Jekyll-(3.0)-on-Netlify) | Aaron Autrand | 2015/10/28 |
 | [Introducing Smarter Redirects](https://www.netlify.com/blog/2015/10/26/Introducing-Smarter-Redirects) | Matt Biilmann | 2015/10/26 |
@@ -243,11 +243,11 @@ Welcome to the Netlify blog repo!
 | [A Step-by-Step Guide: Roots on Netlify](https://www.netlify.com/blog/2015/10/22/A-Step-by-Step-Guide:-Roots-on-Netlify) | Aaron Autrand | 2015/10/22 |
 | [Netlify News No. 6](https://www.netlify.com/blog/2015/10/20/Netlify-News-No.-6) | Chris Bach | 2015/10/20 |
 | [A Step-by-Step Guide: Middleman on Netlify](https://www.netlify.com/blog/xx-xx-xxxx/A-Step-by-Step-Guide:-Middleman-on-Netlify) | Aaron Autrand | xx-xx-xxxx |
-| [Hosting Hugo on Netlify–Insanely Fast Deploys](https://www.netlify.com/blog/2015/07/30/Hosting-Hugo-on-NetlifyInsanely-Fast-Deploys) | Mathias Biilmann | 2015/07/30 |
+| [Hosting Hugo on Netlify–Insanely Fast Deploys](https://www.netlify.com/blog/2015/07/30/Hosting-Hugo-on-Netlify-Insanely-Fast-Deploys) | Mathias Biilmann | 2015/07/30 |
 | [Twickr—Send Tweets of Interest from Twitter to Slack](https://www.netlify.com/blog/2015/04/12/TwickrSend-Tweets-of-Interest-from-Twitter-to-Slack) | Mathias Biilmann | 2015/04/12 |
 | [Netlify News No. 2](https://www.netlify.com/blog/2015/04/07/Netlify-News-No.-2) | Christian Bach | 2015/04/07 |
 | [SmashingConf San Francisco 2016](https://www.netlify.com/blog/2015/04/06/SmashingConf-San-Francisco-2016) | Eli Williamson | 2015/04/06 |
 | [Netlify vs Amazon S3](https://www.netlify.com/blog/2015/03/06/Netlify-vs-Amazon-S3) | Mathias Biilmann | 2015/03/06 |
 | [Five Reasons You Want HTTPS for Your Static Site](https://www.netlify.com/blog/2014/10/03/Five-Reasons-You-Want-HTTPS-for-Your-Static-Site) | Mathias Biilmann | 2014/10/03 |
 
-<!-- AUTO-GENERATED-CONTENT:END -->
+<!-- /docs -->
