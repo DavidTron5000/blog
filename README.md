@@ -1,4 +1,4 @@
-# Open Source Blog
+# Netlify's old blog
 
 Welcome to the Netlify blog repo! 
 
